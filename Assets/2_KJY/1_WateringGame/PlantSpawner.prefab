@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8614315095843413911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8614315095843413905}
+  - component: {fileID: 8614315095843413904}
+  m_Layer: 0
+  m_Name: PlantSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8614315095843413905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8614315095843413911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.95, y: -1.0595, z: 0}
+  m_LocalScale: {x: 1.9098235, y: 2.1151195, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8614315095843413904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8614315095843413911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5412ef751c68043739cae01b62747f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _plantPrefabs:
+  - {fileID: 8123815546794079352, guid: 4f3416eab02024c19bdd7b6a87232bdb, type: 3}
+  - {fileID: 8123815546794079352, guid: c5170ef51dfc049b7af6c98730bf7bd1, type: 3}
+  - {fileID: 8123815546794079352, guid: a5e14f3d018a248468e1288555253017, type: 3}
+  - {fileID: 8123815546794079352, guid: b136b15a6c3ae478cb030a55790a68f5, type: 3}
+  - {fileID: 8123815546794079352, guid: 7fb98f7fbf65647a781d74a948a38c96, type: 3}
+  _spawnPos: {fileID: 8614315095843413905}
+  _interval: 7
+  _isOn: 0
+  _mainCanvas: {fileID: 0}
+  _checkScore: {fileID: 0}
+  _defaultSpeed: 6
+  _minSpeed: 1
+  _breakRate: 2
+  _accelerationRate: 2
